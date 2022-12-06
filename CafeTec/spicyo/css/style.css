@@ -321,7 +321,7 @@ img {
      border: solid #eaeaea 1px;
 }
  .button_user a:hover, .button_user a:focus, .button_user a.active {
-     background: #e3d105;
+     background: red;
      color: #fff;
      border-color: #e3d105;
      color: #222;
