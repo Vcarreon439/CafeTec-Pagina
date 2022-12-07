@@ -708,9 +708,15 @@ img {
      padding-bottom: 15px;
      margin-bottom: 15px;
 }
+
+.ftAlone{
+     background: #232323;
+}
+
  ul.lik {
     text-align: center;
-     margin-top: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;
 }
  ul.lik li {
     display: inline-block;
