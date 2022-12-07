@@ -505,7 +505,7 @@ img {
     padding-top: 90px;
 }
  .about .about_box {
-    background: #191918;
+    background: #323638;
      padding: 55px 40px;
 }
  .about .about_box h3 {
@@ -554,11 +554,11 @@ img {
     font-size: 45px;
      font-weight: 500;
      line-height: 40px;
-     color: #191918;
+     color: #323638;
      padding: 20px 0px;
 }
  .title span {
-    color: #191918;
+    color: #323638;
      font-size: 17px;
      line-height: 20px;
      display: block;
@@ -579,7 +579,7 @@ img {
     width: 100%;
 }
  .blog .blog_box .blog_img_box figure span {
-     background: #000;
+     background: #841a1a;
      top: 0;
      text-align: center;
      padding: 7px 10px;
@@ -614,7 +614,7 @@ img {
      font-size: 45px;
      font-weight: 500;
      line-height: 40px;
-     color: #191918;
+     color: #323638;
      padding: 20px 0px;
      padding-bottom: 0px;
 }
@@ -753,13 +753,13 @@ img {
      border: indianred
 }
  .submit {
-     background: #070100;
+     background: #232323;
      margin-left: -3px;
      padding: 9px 50px;
      color: #fff;
 }
  .submit:hover {
-    background: #ddd;
+    background: #b0a8a8;
      color: #000;
 }
  .footer .img-box figure {
