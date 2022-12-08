@@ -655,13 +655,23 @@ img {
      padding-left: 223px;
      padding-bottom: 0px;
 }
+.centerh2{
+     text-align: center;
+}
+
+.i-am-centered { 
+     margin: auto; 
+     max-width: 300px;
+}
+
  .white {
      color: #fff;
      font-weight: 500;
 }
  .main_form {
      padding-top: 30px;
-     padding-left: 223px;
+     padding-left: 0;
+     padding-bottom: 30px;
 }
  .form-control {
      border: #fff solid 2px;
@@ -713,6 +723,10 @@ img {
      background: #232323;
 }
 
+ftLetter{
+     color: white;
+}
+
  ul.lik {
     text-align: center;
      margin-top: 20px;
@@ -722,7 +736,7 @@ img {
     display: inline-block;
 }
  ul.lik li a {
-     color: #292323;
+     color: white;
      font-size: 17px;
      line-height: 27px;
      padding: 0px 25px;
