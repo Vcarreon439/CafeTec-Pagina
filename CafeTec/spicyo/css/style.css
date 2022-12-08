@@ -506,7 +506,7 @@ img {
 }
  .about .about_box {
     background: #323638;
-     padding: 55px 40px;
+     padding: 1em;
 }
  .about .about_box h3 {
      font-size: 30px;
