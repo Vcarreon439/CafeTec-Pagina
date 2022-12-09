@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="css/login.css">
     
 </head>
-<script src ="encrypt.js"></script>
+<script src ="js/encrypt.js"></script>
+<script src ="js/aes.js"></script>
+
 <body>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <div class="logo">
     <a href="index.html"><img src="images/logoCafetec.png" alt="" /></a>
     </div>
     
-<form name="myform" method="post" action="x" onsubmit="return validateform()" >
+<form name="myform" method="post" action= "index.html" onsubmit="return validateform()" >
 <div class="login-block">
     <h1>Login</h1>
-    Name: <input type="text" name="name" value="" placeholder="Usuario" id="username" >
-    Password: <input type="password" name="password" value="" placeholder="Contraseña" id="password" >
-    <button type="submit" value="submit">Iniciar Sesión  </button>
+    <input type="text" id="username" placeholder="Usuario"><br>
+            <input type="password" id="password" placeholder="Constraseña"><br>
+ 
+            <button type="submit" value="submit">Iniciar Sesión  </button>
+            
 </div>
 </form>  
 </body>
