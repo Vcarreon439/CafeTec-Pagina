@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
+    
 </head>
+<script src ="encrypt.js"></script>
 <body>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <div class="logo">
     <a href="index.html"><img src="images/logoCafetec.png" alt="" /></a>
     </div>
+    
+<form name="myform" method="post" action="x" onsubmit="return validateform()" >
 <div class="login-block">
     <h1>Login</h1>
-    <input type="text" value="" placeholder="Usuario" id="username" />
-    <input type="password" value="" placeholder="Contraseña" id="password" />
-    <button>Iniciar Sesión</button>
+    Name: <input type="text" name="name" value="" placeholder="Usuario" id="username" >
+    Password: <input type="password" name="password" value="" placeholder="Contraseña" id="password" >
+    <button type="submit" value="submit">Iniciar Sesión  </button>
 </div>
+</form>  
 </body>
 </html>
